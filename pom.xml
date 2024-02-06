@@ -28,6 +28,13 @@
 			<version>1.12.651</version>
 		</dependency>
 
+		<!-- Swagger (OpenAPI v3) -->
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			<version>2.0.4</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>

@@ -1,5 +1,6 @@
 package br.com.souza.text_translator.controller.impl;
 
+import br.com.souza.text_translator.controller.ITranslatorController;
 import br.com.souza.text_translator.dto.TranslatorResponse;
 import br.com.souza.text_translator.service.TranslatorService;
 import org.springframework.http.HttpStatus;
@@ -12,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping(value = "/v1/translate")
-public class TranslatorControllerImpl {
+public class TranslatorControllerImpl implements ITranslatorController {
 
     private final TranslatorService translatorService;
 
